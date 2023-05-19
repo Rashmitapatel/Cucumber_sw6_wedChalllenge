@@ -1,0 +1,954 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37118956500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3585032700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 871172100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16663467300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1644784400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16251892500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1444105600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18295005500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1935809000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18228607100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1474293000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 74000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11711953700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": ": Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;:-search-the-buy-car-with-model;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1418595700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "buysteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I mouse hover on \"\u003cbuy+sell\u003e\" tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click \"\u003cSearch Cars\u003e\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cSearch Cars\u003e",
+                  "offset": 9
+                }
+              ],
+              "location": "buysteps.iClickOnSearchLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I navigate to ‘new and used car search’ page",
+            "match": {
+              "location": "buysteps.iNavigateToNewAndUsedCarSearchPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select make “\u003cmake\u003e”",
+            "match": {
+              "location": "buysteps.iSelectMakeMake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I select model “\u003cmodel\u003e”",
+            "match": {
+              "location": "buysteps.iSelectModelModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I select location “\u003clocation\u003e”",
+            "match": {
+              "location": "buysteps.iSelectLocationLocation(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I select price “\u003cprice\u003e”",
+            "match": {
+              "location": "buysteps.iSelectPricePrice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on Find My Next Car tab",
+            "match": {
+              "location": "buysteps.iClickOnFindMyNextCarTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see the make “\u003cmake\u003e” in results",
+            "match": {
+              "location": "buysteps.iShouldSeeTheMakeMakeInResults(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "As a User i should sucessfully test search functionality",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "buy.feature"
+  }
+]
